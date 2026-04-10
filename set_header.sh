@@ -3,10 +3,10 @@
 
 # Set variables
 
-if [ ! -z "$USER" ]
+if [ ! -z "$USER42" ]
 then
-    echo "USER=`/usr/bin/whoami`" >> ~/.zshrc
-    echo "export USER" >> ~/.zshrc
+    echo "USER42=`/usr/bin/whoami`" >> ~/.zshrc
+    echo "export USER42" >> ~/.zshrc
 fi
 
 if [ ! -z "$GROUP" ]
@@ -17,7 +17,7 @@ fi
 
 if [ ! -z "$MAIL" ]
 then
-    echo "MAIL="$USER@student.42.fr"" >> ~/.zshrc
+    echo "MAIL="$USER42@student.42.fr"" >> ~/.zshrc
     echo "export MAIL" >> ~/.zshrc
 fi
 
