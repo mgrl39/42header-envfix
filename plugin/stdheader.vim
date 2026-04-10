@@ -91,7 +91,7 @@ function! s:user()
 	if exists('g:user42')
 		return g:user42
 	endif
-	let l:user = $USER
+	let l:user = $USER42
 	if strlen(l:user) == 0
 		let l:user = "marvin"
 	endif
@@ -102,7 +102,7 @@ function! s:mail()
 	if exists('g:mail42')
 		return g:mail42
 	endif
-	let l:mail = $MAIL
+	let l:mail = $MAIL42
 	if strlen(l:mail) == 0
 		let l:mail = "marvin@42.fr"
 	endif
